@@ -1,0 +1,23 @@
+.account-user-info {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.account-user-info > * + * {
+  margin-top: 10px;
+}
+
+.account-user-info-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.account-user-info-item-label {
+  font-weight: 600;
+  color: brown;
+}
+
+.account-user-info-item-value {
+  font-weight: 600;
+}

@@ -1,0 +1,19 @@
+.product-info-stat {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.product-info-stat-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.product-info-stat-value {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: brown;
+}

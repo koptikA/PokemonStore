@@ -1,0 +1,43 @@
+.product {
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.product-link {
+  text-decoration: none;
+}
+
+.product:hover {
+  border-color: rgb(241, 78, 78);
+}
+
+.product-image {
+  height: 200px;
+}
+
+.product-image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.product-title {
+  text-transform: uppercase;
+}
+
+.product-stat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.product-stat-title {
+  color: brown;
+  font-weight: 600;
+}
+
+.product-stat-value {
+  font-weight: 600;
+}
