@@ -15,7 +15,7 @@ api.interceptors.request.use(
   },
 );
 
-api.interceptors.request.use(
+api.interceptors.response.use(
   function (response) {
     return response;
   },
@@ -24,13 +24,9 @@ api.interceptors.request.use(
       localStorage.clear();
 
       window.location.reload();
+    }
 
-      return;
-    }
-    if (error.response.status === 400) {
-      return Promise.reject(error.response.data);
-    }
-    return Promise.reject(error.response.data);
+    return Promise.reject(error);
   },
 );
 

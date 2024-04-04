@@ -42,7 +42,7 @@ export const Registration = () => {
                   component={FormikField}
                   type="text"
                   placeholder="Firs Name"
-                  name="firstname"
+                  name="firstName"
                   label={'Firs Name'}
                 />
 
