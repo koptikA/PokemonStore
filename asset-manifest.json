@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/PokemonStore/static/css/main.98c44297.css",
-    "main.js": "/PokemonStore/static/js/main.eca8f731.js",
+    "main.css": "/PokemonStore/static/css/main.8c8e7ccf.css",
+    "main.js": "/PokemonStore/static/js/main.cc683129.js",
     "index.html": "/PokemonStore/index.html",
-    "main.98c44297.css.map": "/PokemonStore/static/css/main.98c44297.css.map",
-    "main.eca8f731.js.map": "/PokemonStore/static/js/main.eca8f731.js.map"
+    "main.8c8e7ccf.css.map": "/PokemonStore/static/css/main.8c8e7ccf.css.map",
+    "main.cc683129.js.map": "/PokemonStore/static/js/main.cc683129.js.map"
   },
   "entrypoints": [
-    "static/css/main.98c44297.css",
-    "static/js/main.eca8f731.js"
+    "static/css/main.8c8e7ccf.css",
+    "static/js/main.cc683129.js"
   ]
 }
