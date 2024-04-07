@@ -8,3 +8,65 @@ body {
   font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
     'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
+
+ul,
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.header-link {
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+
+  border-bottom: 2px solid transparent;
+  text-transform: uppercase;
+}
+
+.header-link:hover {
+  border-color: brown;
+}
+
+.header-link-cart {
+  font-weight: 700;
+  color: black;
+  font-size: 40px;
+  margin-top: 12px;
+  align-items: center;
+}
+
+.header-link-exit {
+  font-weight: 700;
+  color: black;
+  margin-top: 5px;
+  align-items: center;
+}
+
+.header-link-exit:hover {
+  color: brown;
+}
+
+.header-link-cart:hover {
+  color: brown;
+}
+
+.header-cart {
+  position: relative;
+  position: relative;
+  padding: 0 10px;
+  transition: 0.1s;
+}
+
+.header-cart-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
