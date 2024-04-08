@@ -9,7 +9,7 @@ export const Product = ({ product }) => {
   const { id, name, price, image, stats } = product;
 
   return (
-    <Col className="mb-3 col-md-6 col-lg-3 col-3">
+    <Col className="mb-5 col-md-6 col-lg-3 col-6">
       <Link className="product-link" to={`${ROUTE_NAMES.PRODUCTS}/${id}`}>
         <Card className="product">
           <div className="product-image">

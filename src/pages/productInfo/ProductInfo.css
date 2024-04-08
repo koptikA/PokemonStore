@@ -40,3 +40,17 @@
 .product-info-price span {
   color: brown;
 }
+
+@media (max-width: 767px) {
+  .product-info-top {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;   
+    margin-bottom: 20px;
+
+  }
+
+
+}

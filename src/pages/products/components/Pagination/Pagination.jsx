@@ -5,14 +5,16 @@ import './Pagination.css';
 export const Pagination = ({ currentPage, setActivePage }) => {
   const items = [];
 
-  for (let number = 1; number <= 20; number++) {
+  for (let number = 1; number <= 29; number++) {
     items.push(
       <BPagination.Item
         onClick={() => setActivePage(number)}
         key={number}
-        active={number === currentPage}
+        active={number === currentPage} 
       >
+        
         {number}
+        
       </BPagination.Item>,
     );
   }

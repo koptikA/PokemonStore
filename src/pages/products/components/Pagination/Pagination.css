@@ -1,3 +1,7 @@
 .pagination-wrapper {
-  justify-content: center;
+  width: 100%;
+  overflow-x: auto;
+  justify-content: flex-start;
+  padding: 5px;
 }
+

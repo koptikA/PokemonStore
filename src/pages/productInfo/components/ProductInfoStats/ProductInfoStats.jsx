@@ -1,6 +1,5 @@
 import React from 'react';
 import './ProductInfoStats.css';
-import { ProductInfo } from '../../ProductInfo';
 
 export const ProductInfoStats = ({ stats }) => {
   return (
