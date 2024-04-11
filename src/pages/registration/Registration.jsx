@@ -11,7 +11,7 @@ import { logupThunk } from './thunks';
 import { validationSchema } from '../login/validation';
 import { useDispatch, useSelector } from 'react-redux';
 import { ROUTE_NAMES } from '../../routes/routeNames';
-import { Navigate } from 'react-router-dom';
+import { Link, Navigate } from 'react-router-dom';
 
 export const Registration = () => {
   const dispatch = useDispatch();
@@ -34,16 +34,21 @@ export const Registration = () => {
         {(formikProps) => {
           return (
             <Modal show={true}>
+               <div className="registration-login-link">
+                  <a>Already have an account? </a>
+                  <Link to={ROUTE_NAMES.LOGIN}>Sign In</Link>
+                </div>
               <Modal.Header>
                 <Modal.Title>Register</Modal.Title>
+               
               </Modal.Header>
               <Modal.Body>
                 <Field
                   component={FormikField}
                   type="text"
-                  placeholder="Firs Name"
+                  placeholder="First Name"
                   name="firstName"
-                  label={'Firs Name'}
+                  label={'First Name'}
                 />
 
                 <Field
@@ -126,6 +131,9 @@ export const Registration = () => {
                   label="City"
                 />
                 <div className="form-error-message">{errors}</div>
+
+                
+
               </Modal.Body>
 
               <Modal.Footer>

@@ -1,0 +1,10 @@
+.registration-login-link {
+    text-align: right;
+    padding: 20px;
+    row-gap: 10px;
+}
+
+.registration-login-link a {
+    color: blue;
+  }
+  

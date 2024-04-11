@@ -33,37 +33,36 @@ li {
 }
 
 .header-link:hover {
-  border-color: brown;
+  border-color: #0E6FFF;
 }
 
 .header-link-cart {
-  font-weight: 700;
+  font-weight: 800;
   color: black;
   font-size: 40px;
-  margin-top: 12px;
+  margin-top: 14px;
   align-items: center;
-  
 }
 
 .header-link-exit {
-  font-weight: 700;
+  font-weight: 900;
   color: black;
-  margin-top: 5px;
+  margin-top: 10px;
   align-items: center;
 }
 
 .header-link-exit:hover {
-  color: brown;
+  color: #0E6FFF;
 }
 
 .header-link-cart:hover {
-  color: brown;
+  color: #0E6FFF;
 }
 
 .header-cart {
   position: relative;
   position: relative;
-  padding: 0 10px;
+
   transition: 0.1s;
 }
 

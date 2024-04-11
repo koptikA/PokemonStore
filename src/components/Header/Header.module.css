@@ -5,11 +5,8 @@
 }
 
 .logo {
-  padding-top: 10px;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 20px;
-  color: brown;
+  padding-top: 5px;
+  width: 15vh;
 }
 
 .box {
@@ -36,8 +33,9 @@
   .mobile_btn {
     display: block;
     position: absolute;
-    right: 10px;
-    top: 27px;
+    right: 20px;
+    top: 35px;
+    
     cursor: pointer;
     z-index: 10;
   }
